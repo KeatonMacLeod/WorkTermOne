@@ -2,10 +2,10 @@
 <strong>Discalimer: This code is crown property.</strong>
 
 
-Featured below is the create page for making new documents! 
+Create Page:
+------------
 
-Front End:
-----------
+<strong>Front End: </strong>
 I worked on the position of the elements under Decision Request information.
 
 I added in file number and URL selections which give prompts for the user and do verification depending on which input type they pick.
