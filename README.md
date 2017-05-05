@@ -1,5 +1,5 @@
 
-<bold>Discalimer: This code is crown property.</bold>
+<strong>Discalimer: This code is crown property.</strong>
 
 Featured below is the create page for making new documents! 
 
