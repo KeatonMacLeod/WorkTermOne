@@ -32,9 +32,12 @@ def createNewDreq(request) {
             newDreq.lastUpdatedByPDSSUserId = currUser.id
             newDreq.lastUpdatedOnDatetime = createDate
 
-            if (!newDreq.save(flush: true)) {
+            if (!newDreq.save(flush: true))
+            {
                 println newDreq.errors
-            } else {
+            } 
+            else 
+            {
                 //Write Business Activity
                 newDreq.save(flush: true)
 
@@ -62,10 +65,13 @@ def createNewDreq(request) {
                     newAuthority.lastUpdatedByPDSSUserId = currUser.id
                     newAuthority.lastUpdatedOnDatetime = createDate
 
-                    if (!newAuthority.save(flush: true)) {
+                    if (!newAuthority.save(flush: true)) 
+                    {
                         println newAuthority.errors
                         throw new RuntimeException()
-                    } else {
+                    } 
+                    else 
+                    {
                         newAuthority.save(flush: true)
                         businessEntityService.create(newAuthority.id, businessSeqnCount++, 3, businessActivity.id)
 
@@ -114,7 +120,9 @@ def createNewDreq(request) {
         }//catch
 
         return newDreq
-    } else {
+    } 
+    else 
+    {
         return validRequest
     }
 }//createNewDreq
