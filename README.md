@@ -17,7 +17,7 @@ I added in cursor and shading changes when a user scrolls over panels on the pag
 
 <strong>Back End:</strong>
 
-The source code I wrote that gets called when the "Save Button" is clicked can be viewed under createNewDreq.groovy!
+The source code I wrote that gets called when the "Save Button" is clicked that stores this decision request to the database can be viewed under createNewDreq.groovy!
 
 
 ![createpage](https://cloud.githubusercontent.com/assets/15184861/25734465/bef078b8-3128-11e7-9240-8b602cde2df5.png)
